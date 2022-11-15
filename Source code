@@ -1,13 +1,12 @@
 #Cool Calculator
 #Created by Aidan 
 
-
 import math
-
 
 #Divider---------------------------------------------------------------------------------------------------------
 
 #Intro
+print("Cool Calculator is created by Aidan.")
 print("Welcome to the Cool Calculator. Press the key you will need to complete your calculation.")
 print("Key: a - Addition")
 print("Key: s - Subtraction")
@@ -17,8 +16,9 @@ print("Key: e - Exponent")
 print("Key: sq - Square Root")
 print("Key: c - Cube Root")
 print("Key: h - Hypotenuse")
-print("Key: ds - Distance Formula 2D")
+print("Key: ds - Distance 2D")
 print("Key: sl - Slope")
+print("Key: md - Midpoint 2D")
 
 #Divider---------------------------------------------------------------------------------------------------------
 
@@ -134,5 +134,18 @@ if calcType == "sl":
     answer17=float(number21)-float(number19)
     answer18=float(answer16)/float(answer17)
     print("The slope is "+str(answer18)+".")
+    
+#Divider---------------------------------------------------------------------------------------------------------
+
+#Midpoint
+if calcType == "md":
+    print("You have selected the Midpoint 2D calculation.")
+    number23=input("Type in the x coordinate of the first point.")
+    number24=input("Type in the x coordinate of the second point.")
+    number25=input("Type in the y coordinate of the first point.")
+    number26=input("Type in the y coordinate of the second point.")
+    answer19=(float(number25)+float(number23))/2
+    answer20=(float(number26)+float(number24))/2
+    print("Your midpoint is "+str(answer19)+","+str(answer20)+".")
     
 #Divider---------------------------------------------------------------------------------------------------------

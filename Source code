@@ -23,7 +23,7 @@ print("Key: md - Midpoint 2D")
 #Divider---------------------------------------------------------------------------------------------------------
 
 #User Input
-calcType=input("Press the key you will need to complete your calculation.")
+calcType= input("Press the key you will need to complete your calculation.")
 
 #Divider---------------------------------------------------------------------------------------------------------
 
@@ -34,6 +34,7 @@ if calcType == "a":
     number2=input("Type in the second number.")
     answer1= float(number1)+float(number2)
     print("Your answer is "+str(answer1)+".")
+    reader=input("Press Enter to close.")
 
 #Divider---------------------------------------------------------------------------------------------------------
 
@@ -44,6 +45,7 @@ if calcType == "s":
     number4=input("Type in the amount to subtract.")
     answer2= float(number3)-float(number4)
     print("Your answer is "+str(answer2)+".")
+    reader=input("Press Enter to close.")
     
 #Divider---------------------------------------------------------------------------------------------------------
 
@@ -54,6 +56,7 @@ if calcType == "m":
     number6=input("Type in the second number")
     answer3= float(number5)*float(number6)
     print("Your answer is "+answer3+".")
+    reader=input("Press Enter to close. ")
     
 #Divider---------------------------------------------------------------------------------------------------------
 
@@ -64,7 +67,8 @@ if calcType == "d":
     number8=input("Type in the amount divided.")
     answer4= float(number7)/float(number8)
     print("Your answer is "+answer4+".")
-
+    reader=input("Press Enter to close.")
+    
 #Divider---------------------------------------------------------------------------------------------------------
 
 #Exponent
@@ -74,6 +78,7 @@ if calcType == "e":
     number10=input("Type in the exponent.")
     answer5= float(number9)**float(number10)
     print("Your answer is "+str(answer5)+".")
+    reader=input("Press Enter to close.")
     
 #Divider---------------------------------------------------------------------------------------------------------
 
@@ -83,7 +88,8 @@ if calcType == "sq":
     number11=input("Type in the number you want to find the square root of.")
     answer6=math.sqrt(float(number11))
     print("Your answer is "+str(answer6)+".")
-
+    reader=input("Press Enter to close.")
+    
 #Divider---------------------------------------------------------------------------------------------------------
 
 #Cube Root
@@ -92,7 +98,7 @@ if calcType == "c":
     number12=input("Type in the number you want to find the cube root of.")
     answer7=float(number12) ** (1. / 3)
     print("The cube root of "+str(number12)+"is" +str(answer7)+".")
-    
+    reader=input("Press Enter to close.")
 #Divider---------------------------------------------------------------------------------------------------------
 
 #Hypotenuse
@@ -103,6 +109,7 @@ if calcType == "h":
     answer8=(pow(float(number13), exp=2))+(pow(float(number14), exp=2))
     answer9=math.sqrt(float(answer8))
     print("The length of the third side is "+str(answer9)+".")
+    reader=input("Press Enter to close.")
     
 #Divider---------------------------------------------------------------------------------------------------------
 
@@ -120,6 +127,7 @@ if calcType == "ds":
     answer14=float(answer11)+float(answer13)
     answer15=math.sqrt(float(answer14))
     print("Your distance is "+str(answer15)+".")  
+    reader=input("Press Enter to close.")
     
 #Divider---------------------------------------------------------------------------------------------------------
 
@@ -134,6 +142,7 @@ if calcType == "sl":
     answer17=float(number21)-float(number19)
     answer18=float(answer16)/float(answer17)
     print("The slope is "+str(answer18)+".")
+    reader=input("Press Enter to close.")
     
 #Divider---------------------------------------------------------------------------------------------------------
 
@@ -147,5 +156,7 @@ if calcType == "md":
     answer19=(float(number25)+float(number23))/2
     answer20=(float(number26)+float(number24))/2
     print("Your midpoint is "+str(answer19)+","+str(answer20)+".")
+    reader=input("Press Enter to close.")
     
 #Divider---------------------------------------------------------------------------------------------------------
+

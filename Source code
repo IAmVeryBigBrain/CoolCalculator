@@ -55,7 +55,7 @@ if calcType == "m":
     number5=input("Type in the first number.")
     number6=input("Type in the second number")
     answer3= float(number5)*float(number6)
-    print("Your answer is "+answer3+".")
+    print("Your answer is "+str(answer3)+".")
     reader=input("Press Enter to close. ")
     
 #Divider---------------------------------------------------------------------------------------------------------
@@ -66,7 +66,7 @@ if calcType == "d":
     number7=input("Type the number you want to divide from.")
     number8=input("Type in the amount divided.")
     answer4= float(number7)/float(number8)
-    print("Your answer is "+answer4+".")
+    print("Your answer is "+str(answer4)+".")
     reader=input("Press Enter to close.")
     
 #Divider---------------------------------------------------------------------------------------------------------

@@ -5,6 +5,5 @@ To download it, click on the lastest release and click on the .exe file. It will
 If it says my file has malware/virus/troja/phishing on VirusTotal it is because i did not want to pay to have the file verified.
 If you want to use this for commercial purposes, you will need a link to this repository and mention me. 
 If you want to run this file on a phone, just download a python interpreter app and download the .py file in the latest version. It should run as normal.
-
-![Screenshot (24)](https://user-images.githubusercontent.com/116606573/206940596-077a43b6-83a0-45d8-bdd7-72a56db112c0.png)
-![Screenshot (25)](https://user-images.githubusercontent.com/116606573/206940599-9628491c-8957-493f-bd55-a76b2542180c.png)
+![Screenshot (27)](https://user-images.githubusercontent.com/116606573/206940770-74ddd43b-a797-49e0-bd05-b071aedd1b57.png)
+![Screenshot (26)](https://user-images.githubusercontent.com/116606573/206940774-31a620b8-3d71-4a04-93a5-80de510f4b7f.png)

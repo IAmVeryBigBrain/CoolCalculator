@@ -6,6 +6,7 @@ import math
 #Divider---------------------------------------------------------------------------------------------------------
 
 #Intro
+print("==========================================================================================================")
 print("Cool Calculator is created by Aidan.")
 print("Welcome to the Cool Calculator. Press the key you will need to complete your calculation.")
 print("Key: a - Addition")
@@ -19,7 +20,7 @@ print("Key: h - Hypotenuse")
 print("Key: ds - Distance 2D")
 print("Key: sl - Slope")
 print("Key: md - Midpoint 2D")
-
+print("==========================================================================================================")
 #Divider---------------------------------------------------------------------------------------------------------
 
 #User Input
@@ -53,7 +54,7 @@ if calcType == "s":
 if calcType == "m":
     print("You selected the Multiplication calculation.")
     number5=input("Type in the first number.")
-    number6=input("Type in the second number")
+    number6=input("Type in the second number.")
     answer3= float(number5)*float(number6)
     print("Your answer is "+str(answer3)+".")
     reader=input("Press Enter to close. ")
